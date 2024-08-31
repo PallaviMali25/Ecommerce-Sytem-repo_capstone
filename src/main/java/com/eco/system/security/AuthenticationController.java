@@ -13,48 +13,67 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * Controller class for handling authentication requests and generating JWT tokens.
+ */
 @RestController
 @CrossOrigin
 public class AuthenticationController {
-	
 
-		@Autowired
-	    private AuthenticationManager authenticationManager;
+    @Autowired
+    private AuthenticationManager authenticationManager; // Manages authentication operations
 
-	    @Autowired
-	    private JwtTokenUtil jwtTokenUtil;
+    @Autowired
+    private JwtTokenUtil jwtTokenUtil; // Utility class for generating JWT tokens
 
-	    @Autowired
-	    private JwtUserDetailsService userDetailsService;
+    @Autowired
+    private JwtUserDetailsService userDetailsService; // Service for loading user-specific details
 
-	    @PostMapping("/getToken")
-	    public ResponseEntity<JwtResponse> createAuthenticationToken(@RequestBody JwtRequest authenticationRequest) {
+    /**
+     * Endpoint to authenticate a user and generate a JWT token.
+     * 
+     * @param authenticationRequest contains username and password for authentication
+     * @return ResponseEntity containing the JWT token or an error message
+     * @throws Exception 
+     */
+    @PostMapping("/getToken")
+    public ResponseEntity<JwtResponse> createAuthenticationToken(@RequestBody JwtRequest authenticationRequest) throws Exception {
 
-	        try {
-	            try {
-					authenticate(authenticationRequest.getUsername(), authenticationRequest.getPassword());
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-	        } catch (DisabledException e) {
-	            return new ResponseEntity<>(new JwtResponse("User disabled"), HttpStatus.FORBIDDEN);
-	        } catch (BadCredentialsException e) {
-	            return new ResponseEntity<>(new JwtResponse("Invalid credentials"), HttpStatus.UNAUTHORIZED);
-	        }
+        try {
+            // Attempt to authenticate the user with the provided username and password
+            authenticate(authenticationRequest.getUsername(), authenticationRequest.getPassword());
+        } catch (DisabledException e) {
+            // Handle case where user account is disabled
+            return new ResponseEntity<>(new JwtResponse("User disabled"), HttpStatus.FORBIDDEN);
+        } catch (BadCredentialsException e) {
+            // Handle case where provided credentials are invalid
+            return new ResponseEntity<>(new JwtResponse("Invalid credentials"), HttpStatus.UNAUTHORIZED);
+        }
 
-	        final UserDetails userDetails = userDetailsService.loadUserByUsername(authenticationRequest.getUsername());
-	        final String token = jwtTokenUtil.generateToken(userDetails);
+        // Load user details from the service
+        final UserDetails userDetails = userDetailsService.loadUserByUsername(authenticationRequest.getUsername());
+        
+        // Generate JWT token based on user details
+        final String token = jwtTokenUtil.generateToken(userDetails);
 
-	        return ResponseEntity.ok(new JwtResponse(token));
-	    }
+        // Return the generated token in the response
+        return ResponseEntity.ok(new JwtResponse(token));
+    }
 
-	    private void authenticate(String username, String password) throws Exception {
-	        try {
-	            authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, password));
-	        } catch (DisabledException | BadCredentialsException e) {
-	            throw e;  // Re-throw to be handled in the controller method
-	        }
-	    }
-	}
-
-
+    /**
+     * Method to authenticate a user with the given username and password.
+     * 
+     * @param username the username of the user
+     * @param password the password of the user
+     * @throws Exception if authentication fails due to disabled account or bad credentials
+     */
+    private void authenticate(String username, String password) throws Exception {
+        try {
+            // Create an authentication token and authenticate the user
+            authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, password));
+        } catch (DisabledException | BadCredentialsException e) {
+            // Rethrow the exception to be handled by the calling method
+            throw e;
+        }
+    }
+}

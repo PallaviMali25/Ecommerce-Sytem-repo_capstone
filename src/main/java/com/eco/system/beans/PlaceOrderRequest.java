@@ -1,20 +1,20 @@
 package com.eco.system.beans;
 
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Positive;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import jakarta.validation.constraints.NotNull; // Importing @NotNull to ensure fields are not null
+import jakarta.validation.constraints.Positive; // Importing @Positive to enforce that a number is positive
+import lombok.AllArgsConstructor; // Lombok annotation to generate a constructor with all arguments
+import lombok.Data; // Lombok annotation to generate getters, setters, toString, equals, and hashCode methods
+import lombok.NoArgsConstructor; // Lombok annotation to generate a no-arguments constructor
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+@Data // Lombok annotation to automatically generate boilerplate code like getters, setters, toString, equals, and hashCode methods
+@AllArgsConstructor // Lombok annotation to generate a constructor with all fields as parameters
+@NoArgsConstructor // Lombok annotation to generate a no-arguments constructor
 public class PlaceOrderRequest {
 
-    @NotNull(message = "CartItem ID is required")
+    @NotNull(message = "CartItem ID is required") // Ensures that cartItemId cannot be null, with a custom error message if validation fails
     private Integer cartItemId;
 
-    @Positive(message = "Quantity must be a positive number")
-    @NotNull(message = "Quantity is required")  // Ensure quantity is not null
+    @Positive(message = "Quantity must be a positive number") // Ensures that quantity is a positive number
+    @NotNull(message = "Quantity is required") // Ensures that quantity cannot be null, with a custom error message if validation fails
     private Integer quantity;
 }

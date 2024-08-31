@@ -1,5 +1,6 @@
 package com.eco.system.controller;
 
+// Import necessary classes and libraries
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,24 +18,36 @@ import com.eco.system.serviceImplementation.OrderService;
 
 import jakarta.validation.Valid;
 
-@RestController
-@RequestMapping("/orders")
-@CrossOrigin(origins = "http://localhost:8081")
+@RestController // Indicates that this class is a REST controller
+@RequestMapping("/orders") // Base URL for all endpoints related to orders
+@CrossOrigin(origins = "http://localhost:8081") // Enables CORS for the specified origin
 public class OrderController {
 
-    @Autowired
+    @Autowired // Injects the OrderService bean for dependency injection
     private OrderService orderService;
 
+    /**
+     * POST endpoint to place a new order.
+     * 
+     * @param placeOrderRequest DTO containing the order placement details.
+     * @return ResponseEntity containing the created Order and HTTP status.
+     */
     @PostMapping("/place")
     public ResponseEntity<Order> placeOrder(@Valid @RequestBody PlaceOrderRequest placeOrderRequest) {
         Order order = orderService.placeOrder(placeOrderRequest);
-        return new ResponseEntity<>(order, HttpStatus.CREATED);
+        return new ResponseEntity<>(order, HttpStatus.CREATED); // Returns 201 Created status indicating successful order placement
     }
     
+    /**
+     * GET endpoint to retrieve an order by its ID.
+     * 
+     * @param orderId ID of the order to retrieve.
+     * @return ResponseEntity containing the Order and HTTP status.
+     */
     @GetMapping("/{orderId}")
     public ResponseEntity<Order> getOrderById(@PathVariable Integer orderId) {
-    	Order order = orderService.getOrderById(orderId);
-        return new ResponseEntity<>(order, HttpStatus.OK);
+        Order order = orderService.getOrderById(orderId);
+        return new ResponseEntity<>(order, HttpStatus.OK); // Returns 200 OK status with the retrieved order
     }
     
 }

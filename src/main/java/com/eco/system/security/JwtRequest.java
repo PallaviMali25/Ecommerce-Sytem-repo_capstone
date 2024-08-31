@@ -2,36 +2,70 @@ package com.eco.system.security;
 
 import java.io.Serializable;
 
+/**
+ * Class representing a request to authenticate with a username and password.
+ * This is used to carry authentication data in the request.
+ */
 public class JwtRequest implements Serializable {
 
-	private static final long serialVersionUID = 6239921560724451905L;
-	
-	private String username;
-	private String password;
-	
-	public JwtRequest()
-	{
-		
-	}
+    private static final long serialVersionUID = 6239921560724451905L; // Serial version UID for serialization compatibility
+    
+    private String username;  // The username for authentication
+    private String password;  // The password for authentication
+    
+    /**
+     * Default constructor.
+     * Initializes a new instance of JwtRequest with no username or password.
+     */
+    public JwtRequest() {
+        // Default constructor
+    }
 
-	public JwtRequest(String username, String password) {
-		this.setUsername(username);
-		this.setPassword(password);
-	}
+    /**
+     * Parameterized constructor.
+     * Initializes a new instance of JwtRequest with the given username and password.
+     * 
+     * @param username the username for authentication
+     * @param password the password for authentication
+     */
+    public JwtRequest(String username, String password) {
+        this.setUsername(username);  // Set the username
+        this.setPassword(password);  // Set the password
+    }
 
-	public String getUsername() {
-		return this.username;
-	}
+    /**
+     * Gets the username.
+     * 
+     * @return the username
+     */
+    public String getUsername() {
+        return this.username;
+    }
 
-	public void setUsername(String username) {
-		this.username = username;
-	}
+    /**
+     * Sets the username.
+     * 
+     * @param username the username to set
+     */
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
-	public String getPassword() {
-		return this.password;
-	}
+    /**
+     * Gets the password.
+     * 
+     * @return the password
+     */
+    public String getPassword() {
+        return this.password;
+    }
 
-	public void setPassword(String password) {
-		this.password = password;
-	}
+    /**
+     * Sets the password.
+     * 
+     * @param password the password to set
+     */
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }
