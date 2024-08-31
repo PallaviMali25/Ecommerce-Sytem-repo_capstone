@@ -1,0 +1,6 @@
+package com.eco.system.exception;
+public class ProductNotFoundException extends Exception {
+		public ProductNotFoundException(String msg) {
+			super(msg);
+		}
+}

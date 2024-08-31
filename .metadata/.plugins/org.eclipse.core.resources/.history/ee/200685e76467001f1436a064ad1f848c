@@ -1,0 +1,75 @@
+package com.eco.system.security;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.authentication.DisabledException;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * Controller for handling authentication requests and generating JWT tokens.
+ */
+@RestController
+@CrossOrigin // Allows cross-origin requests (adjust origin as needed)
+public class AuthenticationController {
+
+    @Autowired
+    private AuthenticationManager authenticationManager; // Manages authentication operations
+
+    @Autowired
+    private JwtTokenUtil jwtTokenUtil; // Utility class for generating JWT tokens
+
+    @Autowired
+    private JwtUserDetailsService userDetailsService; // Service for loading user-specific data
+
+    /**
+     * Handles authentication requests and generates JWT tokens for authenticated users.
+     * 
+     * @param authenticationRequest contains the username and password for authentication
+     * @return a response entity containing the JWT token if authentication is successful, or an error message otherwise
+     */
+    @PostMapping("/getToken")
+    public ResponseEntity<JwtResponse> createAuthenticationToken(@RequestBody JwtRequest authenticationRequest) {
+
+        try {
+            // Attempt to authenticate the user with the provided credentials
+            authenticate(authenticationRequest.getUsername(), authenticationRequest.getPassword());
+        } catch (DisabledException e) {
+            // User account is disabled
+            return new ResponseEntity<>(new JwtResponse("User disabled"), HttpStatus.FORBIDDEN);
+        } catch (BadCredentialsException e) {
+            // Invalid credentials provided
+            return new ResponseEntity<>(new JwtResponse("Invalid credentials"), HttpStatus.UNAUTHORIZED);
+        }
+
+        // Load user details and generate a JWT token if authentication is successful
+        final UserDetails userDetails = userDetailsService.loadUserByUsername(authenticationRequest.getUsername());
+        final String token = jwtTokenUtil.generateToken(userDetails);
+
+        return ResponseEntity.ok(new JwtResponse(token)); // Return the token in the response
+    }
+
+    /**
+     * Authenticates a user based on the provided username and password.
+     * 
+     * @param username the username of the user
+     * @param password the password of the user
+     * @throws Exception if authentication fails
+     */
+    private void authenticate(String username, String password) throws Exception {
+        try {
+            // Create an authentication token with the provided username and password
+            authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, password));
+        } catch (DisabledException | BadCredentialsException e) {
+            // Re-throw exceptions to be handled in the controller method
+            throw e;
+        }
+    }
+}

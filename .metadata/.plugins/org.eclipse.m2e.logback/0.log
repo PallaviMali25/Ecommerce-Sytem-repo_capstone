@@ -1,0 +1,261 @@
+2024-08-31 11:46:49,401 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-08-31 11:48:15,547 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.demo:eurekaClient1:0.0.1-SNAPSHOT @ C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\pom.xml.
+2024-08-31 11:48:26,388 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ecommerce_sys_Capstone_major_Final/src/main/java
+2024-08-31 11:48:26,392 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecommerce_sys_Capstone_major_Final/src/main/resources
+2024-08-31 11:48:26,394 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecommerce_sys_Capstone_major_Final/src/main/resources
+2024-08-31 11:48:26,396 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ecommerce_sys_Capstone_major_Final/src/test/java
+2024-08-31 11:48:26,398 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecommerce_sys_Capstone_major_Final/src/test/resources
+2024-08-31 11:48:27,242 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 18 sec
+2024-08-31 11:48:27,786 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-08-31 11:48:28,739 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.demo:eurekaClient1:0.0.1-SNAPSHOT @ C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\pom.xml.
+2024-08-31 11:48:30,951 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ecommerce_sys_Capstone_major_Final/src/main/java
+2024-08-31 11:48:30,952 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecommerce_sys_Capstone_major_Final/src/main/resources
+2024-08-31 11:48:30,954 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecommerce_sys_Capstone_major_Final/src/main/resources
+2024-08-31 11:48:30,955 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ecommerce_sys_Capstone_major_Final/src/test/java
+2024-08-31 11:48:30,957 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ecommerce_sys_Capstone_major_Final/src/test/resources
+2024-08-31 11:48:31,784 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2024-08-31 11:48:33,392 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 11:48:33,434 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 11:48:33,441 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 11:54:41,343 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.9; built: 2024-05-03T13:03:17.262Z; git: efe8023327e67287f9bfd006700e6a71d45b5dd6; jvm 22.0.2+9
+2024-08-31 11:54:41,410 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@6a3de50d{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@7f2e05fe{STARTED}}
+2024-08-31 11:54:41,411 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-08-31 11:54:41,439 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@6e5eb852{HTTP/1.1, (http/1.1)}{127.0.0.1:52242}
+2024-08-31 11:54:41,446 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@6fea9f34{STARTING}[12.0.9,sto=0] @510056ms
+2024-08-31 11:55:22,392 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 11:55:22,404 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 11:55:22,408 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 11:57:48,132 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 11:57:48,141 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 11:57:48,145 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 11:58:32,826 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 11:58:32,835 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 11:58:32,839 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 11:59:23,336 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 11:59:23,348 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 11:59:23,353 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 11:59:56,143 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 11:59:56,150 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 11:59:56,155 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:00:21,306 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:00:21,317 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:00:21,325 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:04:31,908 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:04:31,915 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:04:31,920 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:06:36,145 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:06:36,155 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:06:36,161 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:06:58,180 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:06:58,188 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:06:58,192 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:07:30,018 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:07:30,023 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:07:30,027 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:08:47,734 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:08:47,745 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:08:47,750 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:10:15,933 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:10:15,940 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:10:15,944 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:11:48,102 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:11:48,108 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:11:48,112 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:14:51,834 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:14:51,842 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:14:51,846 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:15:57,789 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:15:57,796 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:15:57,799 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:17:35,235 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:17:35,243 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:17:35,247 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:17:42,533 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:17:42,540 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:17:42,542 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:18:01,756 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:18:01,763 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:18:01,767 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:18:29,471 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:18:29,478 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:18:29,481 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:19:05,590 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:19:05,596 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:19:05,600 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:19:44,015 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:19:44,025 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:19:44,028 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:20:44,949 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:20:44,958 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:20:44,963 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:21:27,967 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:21:27,977 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:21:27,979 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:22:11,270 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:22:11,280 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:22:11,285 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:23:04,976 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:23:04,984 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:23:04,988 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:24:29,546 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:24:29,586 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:24:29,592 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:24:57,858 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:24:57,865 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:24:57,869 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:25:22,468 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:25:22,475 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:25:22,478 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:25:46,646 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:25:46,652 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:25:46,654 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:26:13,276 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:26:13,281 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:26:13,284 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:26:56,547 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:26:56,554 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:26:56,557 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:28:00,670 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:28:00,676 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:28:00,678 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:29:38,956 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:29:38,978 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:29:38,985 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:30:36,810 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:30:36,819 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:30:36,822 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:31:11,198 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:31:11,205 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:31:11,209 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:31:33,989 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:31:33,995 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:31:33,998 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:32:00,497 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:32:00,504 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:32:00,508 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 12:50:37,215 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@6fea9f34{STOPPING}[12.0.9,sto=0]
+2024-08-31 12:50:37,219 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@6e5eb852{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-08-31 12:50:48,350 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-08-31 12:58:59,572 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 12:58:59,599 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 12:58:59,606 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:04:07,471 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:04:07,479 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:04:07,483 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:04:23,448 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:04:23,457 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:04:23,462 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:04:43,228 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:04:43,243 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:04:43,248 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:05:19,969 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:05:19,980 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:05:19,986 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:05:50,867 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:05:50,874 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:05:50,876 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:06:21,198 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:06:21,206 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:06:21,211 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:06:34,617 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:06:34,623 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:06:34,627 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:07:05,858 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:07:05,867 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:07:05,874 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:08:51,389 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:08:51,397 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:08:51,401 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:09:06,316 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.9; built: 2024-05-03T13:03:17.262Z; git: efe8023327e67287f9bfd006700e6a71d45b5dd6; jvm 22.0.2+9
+2024-08-31 13:09:06,385 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@7066158c{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@15cfc774{STARTED}}
+2024-08-31 13:09:06,386 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-08-31 13:09:06,416 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@40a2cd44{HTTP/1.1, (http/1.1)}{127.0.0.1:61402}
+2024-08-31 13:09:06,440 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@1a1c6ed0{STARTING}[12.0.9,sto=0] @1108238ms
+2024-08-31 13:09:57,650 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:09:57,656 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:09:57,659 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:10:04,389 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:10:04,397 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:10:04,400 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:10:11,375 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:10:11,381 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:10:11,385 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:13:40,584 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:13:40,591 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:13:40,595 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:14:58,637 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:14:58,642 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:14:58,645 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:15:08,567 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:15:08,573 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:15:08,576 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 13:15:16,561 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 13:15:16,567 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 13:15:16,571 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 15:31:17,654 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 15:31:17,717 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 15:31:17,720 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 19:53:56,943 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-08-31 20:07:09,109 [Worker-28: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.demo:eurekaClient1:0.0.1-SNAPSHOT @ C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\pom.xml.
+2024-08-31 20:07:18,125 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 20:07:18,152 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 20:07:18,157 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 20:08:37,596 [Worker-23: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eco:api-gateway-ecommerce:0.0.1-SNAPSHOT @ C:\Users\user\Ecommerce_sytem_workspace\api-gateway-ecommerce\pom.xml.
+2024-08-31 20:08:43,178 [Worker-23: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway-ecommerce/src/main/java
+2024-08-31 20:08:43,181 [Worker-23: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway-ecommerce/src/main/resources
+2024-08-31 20:08:43,182 [Worker-23: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway-ecommerce/src/main/resources
+2024-08-31 20:08:43,183 [Worker-23: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway-ecommerce/src/test/java
+2024-08-31 20:08:43,184 [Worker-23: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway-ecommerce/src/test/resources
+2024-08-31 20:08:43,959 [Worker-23: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2024-08-31 20:08:44,388 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-08-31 20:08:45,106 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eco:api-gateway-ecommerce:0.0.1-SNAPSHOT @ C:\Users\user\Ecommerce_sytem_workspace\api-gateway-ecommerce\pom.xml.
+2024-08-31 20:08:47,080 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway-ecommerce/src/main/java
+2024-08-31 20:08:47,081 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway-ecommerce/src/main/resources
+2024-08-31 20:08:47,082 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway-ecommerce/src/main/resources
+2024-08-31 20:08:47,082 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway-ecommerce/src/test/java
+2024-08-31 20:08:47,099 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway-ecommerce/src/test/resources
+2024-08-31 20:08:47,946 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2024-08-31 20:08:48,470 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 20:08:48,508 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 20:08:48,516 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\api-gateway-ecommerce\src\test\resources
+2024-08-31 20:08:53,799 [Worker-23: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eco:eureka-server:0.0.1-SNAPSHOT @ C:\Users\user\Ecommerce_sytem_workspace\eureka-server-ecommerce\pom.xml.
+2024-08-31 20:08:58,156 [Worker-23: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server-ecommerce/src/main/java
+2024-08-31 20:08:58,157 [Worker-23: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server-ecommerce/src/main/resources
+2024-08-31 20:08:58,158 [Worker-23: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server-ecommerce/src/main/resources
+2024-08-31 20:08:58,158 [Worker-23: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server-ecommerce/src/test/java
+2024-08-31 20:08:58,160 [Worker-23: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server-ecommerce/src/test/resources
+2024-08-31 20:08:58,799 [Worker-23: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2024-08-31 20:08:58,978 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-08-31 20:08:59,720 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eco:eureka-server:0.0.1-SNAPSHOT @ C:\Users\user\Ecommerce_sytem_workspace\eureka-server-ecommerce\pom.xml.
+2024-08-31 20:09:01,690 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server-ecommerce/src/main/java
+2024-08-31 20:09:01,691 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server-ecommerce/src/main/resources
+2024-08-31 20:09:01,691 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server-ecommerce/src/main/resources
+2024-08-31 20:09:01,692 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server-ecommerce/src/test/java
+2024-08-31 20:09:01,693 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server-ecommerce/src/test/resources
+2024-08-31 20:09:02,340 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2024-08-31 20:09:02,740 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 20:09:02,778 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 20:09:02,793 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\eureka-server-ecommerce\src\test\resources
+2024-08-31 20:10:36,463 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.9; built: 2024-05-03T13:03:17.262Z; git: efe8023327e67287f9bfd006700e6a71d45b5dd6; jvm 22.0.2+9
+2024-08-31 20:10:36,544 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@6fd80d03{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@5f602c81{STARTED}}
+2024-08-31 20:10:36,545 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-08-31 20:10:36,581 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@68ae7b5d{HTTP/1.1, (http/1.1)}{127.0.0.1:49819}
+2024-08-31 20:10:36,671 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@751864f6{STARTING}[12.0.9,sto=0] @1054246ms
+2024-08-31 20:14:21,718 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 20:14:21,723 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 20:14:21,725 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 20:29:05,473 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 20:29:05,484 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 20:29:05,489 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 20:29:45,696 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 20:29:45,705 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 20:29:45,710 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 20:43:02,461 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 20:43:02,471 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 20:43:02,476 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 22:22:28,232 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 22:22:28,256 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 22:22:28,263 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
+2024-08-31 23:21:11,654 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-31 23:21:11,666 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-31 23:21:11,675 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final\src\test\resources
