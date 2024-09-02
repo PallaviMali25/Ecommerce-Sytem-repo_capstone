@@ -60,7 +60,7 @@ public class OrderService implements OrderServiceIntf {
         // Calculate total price for the order
         Integer totalPrice = product.getPrice() * quantity;
 
-        // Create a new Order entity
+        // Create a new Order 
         Order order = new Order();
         order.setCustomer(customer); // Set customer associated with the order
         order.setProduct(product); // Set product associated with the order
@@ -69,7 +69,7 @@ public class OrderService implements OrderServiceIntf {
         order.setStatus("PLACED"); // Set the status of the order
         order.setOrderDate(LocalDate.now()); // Set the current date as the order date
         
-        // Remove the cart item after placing the order
+        // Remove the cart after placing the order
         cartItemRepository.delete(cartItem);
     
 

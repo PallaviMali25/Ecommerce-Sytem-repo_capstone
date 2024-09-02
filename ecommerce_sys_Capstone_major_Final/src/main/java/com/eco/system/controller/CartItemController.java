@@ -20,6 +20,8 @@ import com.eco.system.beans.ApiResponse;
 import com.eco.system.beans.CartItemDto;
 import com.eco.system.beans.CartItemUpdatebean;
 import com.eco.system.entity.CartItem;
+import com.eco.system.exception.CartItemNotFoundException;
+import com.eco.system.exception.ProductNotFoundException;
 import com.eco.system.serviceImplementation.CartItemService;
 
 import jakarta.validation.Valid;
@@ -95,9 +97,11 @@ public class CartItemController {
      * @param cartItemId ID of the cart item to update.
      * @param cartItemUpdatebean DTO containing the update details for the cart item.
      * @return ResponseEntity containing an ApiResponse and HTTP status.
+     * @throws ProductNotFoundException 
      */
     @PutMapping("/{cartItemId}")
-    public ResponseEntity<ApiResponse> updateCartItem(@PathVariable Integer cartItemId, @Valid @RequestBody CartItemUpdatebean cartItemUpdatebean) {
+    public ResponseEntity<ApiResponse> updateCartItem(@PathVariable Integer cartItemId, @Valid @RequestBody CartItemUpdatebean cartItemUpdatebean) throws ProductNotFoundException,CartItemNotFoundException {
+    	System.out.println("cartId "+cartItemId +" cartUpdate ;"+ cartItemUpdatebean);
         CartItem updatedCartItem = cartItemService.updateCartItem(cartItemId, cartItemUpdatebean);
         if (updatedCartItem != null) {
             // If the cart item is successfully updated, return a success response

@@ -20,10 +20,10 @@ import jakarta.validation.Valid;
 
 @RestController // Indicates that this class is a REST controller
 @RequestMapping("/orders") // Base URL for all endpoints related to orders
-@CrossOrigin(origins = "http://localhost:8081") // Enables CORS for the specified origin
+@CrossOrigin(origins = "http://localhost:8081") // when request comes from this url, no error shown
 public class OrderController {
 
-    @Autowired // Injects the OrderService bean for dependency injection
+    @Autowired // Injects the OrderService  for dependency injection
     private OrderService orderService;
 
     /**

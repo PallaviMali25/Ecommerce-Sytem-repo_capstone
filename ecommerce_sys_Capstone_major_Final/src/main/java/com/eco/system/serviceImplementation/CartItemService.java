@@ -11,15 +11,18 @@ import com.eco.system.entity.CartItem;
 import com.eco.system.entity.Customer;
 import com.eco.system.entity.Product;
 import com.eco.system.exception.CartItemNotFoundException;
+import com.eco.system.exception.ProductNotFoundException;
 import com.eco.system.repository.CartItemRepository;
+import com.eco.system.repository.ProductRepository;
 import com.eco.system.serviceInterface.CartItemServiceIntf;
 
 @Service // Indicates that this class is a Spring service component
 public class CartItemService implements CartItemServiceIntf {
 
     @Autowired
-    private CartItemRepository cartItemRepository; // Injecting the CartItemRepository to interact with the database
-
+    private CartItemRepository cartItemRepository;// Injecting the CartItemRepository to interact with the database
+    @Autowired
+    private ProductRepository productRepository;
     /**
      * Retrieves all CartItem entities from the repository.
      * 
@@ -74,17 +77,24 @@ public class CartItemService implements CartItemServiceIntf {
      * @param cartItemId the ID of the cart item to be updated
      * @param cartItemUpdatebean the bean containing the updated product information
      * @return CartItem the updated cart item
+     * @throws ProductNotFoundException 
      * @throws CartItemNotFoundException if no cart item is found with the given ID
      */
-    public CartItem updateCartItem(Integer cartItemId, CartItemUpdatebean cartItemUpdatebean) {
+    public CartItem updateCartItem(Integer cartItemId, CartItemUpdatebean cartItemUpdatebean) throws ProductNotFoundException,CartItemNotFoundException {
+        // Validate the existence of CartItem
         CartItem cartItem = cartItemRepository.findById(cartItemId)
                 .orElseThrow(() -> new CartItemNotFoundException("CartItem not found with id: " + cartItemId));
         
-        Product product = new Product(cartItemUpdatebean.getProductId());
-        cartItem.setProduct(product); // Updates the product information of the cart item
+        // Validate the existence of Product
+        Product product = productRepository.findById(cartItemUpdatebean.getProductId())
+                .orElseThrow(() -> new ProductNotFoundException("Product not found with id: " + cartItemUpdatebean.getProductId()));
         
-        return cartItemRepository.save(cartItem); // Saves the updated cart item in the database
+        // Update the CartItem with the new Product
+        cartItem.setProduct(product);
+        
+        return cartItemRepository.save(cartItem);
     }
+
 
     /**
      * Deletes a CartItem by its ID.

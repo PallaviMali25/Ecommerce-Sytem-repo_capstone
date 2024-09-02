@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OrderServiceTest" project="ecommerce_sys_Capstone_major_Final" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.demo.eurekaClient1.serviceTest.OrderServiceTest" time="0.273" displayname="OrderServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.demo.eurekaClient1.serviceTest.OrderServiceTest]">
+    <testcase name="testGetOrderById_NotFound" classname="com.demo.eurekaClient1.serviceTest.OrderServiceTest" time="0.165" displayname="testGetOrderById_NotFound()" uniqueid="[engine:junit-jupiter]/[class:com.demo.eurekaClient1.serviceTest.OrderServiceTest]/[method:testGetOrderById_NotFound()]"/>
+    <testcase name="testPlaceOrder_Success" classname="com.demo.eurekaClient1.serviceTest.OrderServiceTest" time="0.054" displayname="testPlaceOrder_Success()" uniqueid="[engine:junit-jupiter]/[class:com.demo.eurekaClient1.serviceTest.OrderServiceTest]/[method:testPlaceOrder_Success()]"/>
+    <testcase name="testGetOrderById_Success" classname="com.demo.eurekaClient1.serviceTest.OrderServiceTest" time="0.018" displayname="testGetOrderById_Success()" uniqueid="[engine:junit-jupiter]/[class:com.demo.eurekaClient1.serviceTest.OrderServiceTest]/[method:testGetOrderById_Success()]"/>
+    <testcase name="testPlaceOrder_CartItemNotFound" classname="com.demo.eurekaClient1.serviceTest.OrderServiceTest" time="0.016" displayname="testPlaceOrder_CartItemNotFound()" uniqueid="[engine:junit-jupiter]/[class:com.demo.eurekaClient1.serviceTest.OrderServiceTest]/[method:testPlaceOrder_CartItemNotFound()]"/>
+  </testsuite>
+</testrun>

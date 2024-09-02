@@ -56,11 +56,17 @@ public class CartItem {
      * @param customer the customer who owns this cart item
      * @param product the product associated with this cart item
      */
-    public CartItem(Integer cartItemId, @NotNull(message = "Customer is mandatory") Customer customer,
-                    @NotNull(message = "Product is mandatory") Product product) {
+    public CartItem(Integer cartItemId,  Customer customer,
+                     Product product) {
         super();
         this.cartItemId = cartItemId;
         this.product = product;
         this.customer = customer;
     }
+
+	
+
+	
+
+	
 }

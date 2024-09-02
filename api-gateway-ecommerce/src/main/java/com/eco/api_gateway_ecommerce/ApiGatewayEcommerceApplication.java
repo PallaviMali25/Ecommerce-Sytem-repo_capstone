@@ -16,7 +16,7 @@ public class ApiGatewayEcommerceApplication {
 		SpringApplication.run(ApiGatewayEcommerceApplication.class, args);
 	}
 	
-	//it will allow common prot APIgateway http://localhost:8081
+	//it will allow common port APIgateway http://localhost:8081
 	public void addCorsMappings(CorsRegistry registry) {
 		registry.addMapping("/").allowedOrigins("http://localhost:8081")
 				.allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS").allowedHeaders("*").allowCredentials(true);

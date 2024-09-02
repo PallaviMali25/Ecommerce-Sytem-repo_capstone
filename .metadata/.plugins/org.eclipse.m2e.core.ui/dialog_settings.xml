@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\user\Ecommerce_sytem_workspace\eureka-server-ecommerce"/>
+			<item value="C:\Users\user\Ecommerce_sytem_workspace\api-gateway-ecommerce"/>
 			<item value="C:\Users\user\Ecommerce_sytem_workspace\ecommerce_sys_Capstone_major_Final"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -5,6 +5,7 @@ import java.util.List;
 import com.eco.system.beans.CartItemDto;
 import com.eco.system.beans.CartItemUpdatebean;
 import com.eco.system.entity.CartItem;
+import com.eco.system.exception.ProductNotFoundException;
 
 /**
  * Service interface for managing cart items.
@@ -40,7 +41,7 @@ public interface CartItemServiceIntf {
     CartItem addCartItem(CartItemDto cartItemDto);
 
     // Updates an existing cart item identified by its ID with the provided updated data.
-    CartItem updateCartItem(Integer cartItemId, CartItemUpdatebean updatedCartItem);
+    CartItem updateCartItem(Integer cartItemId, CartItemUpdatebean updatedCartItem) throws ProductNotFoundException;
 
     /**
      * Deletes a cart item by its ID.
